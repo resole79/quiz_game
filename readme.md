@@ -28,8 +28,15 @@ python3 main.py
 #### *File Structure*
  - **main.py**: Main program.
  - **question_model.py** : Class "Question"
- - **quiz_brain.py** : Class "QuizBrain" contains "still_has_question"( check if are still question left ), 
-"check_answer"( check if the answer are correct ), "nex_question" ( show next question )
+ - **quiz_brain.py** : Class "QuizBrain" 
+	 - *Instance*:
+		- question_list,
+		- question_number,
+		- score
+	- *Method*:
+		- "still_has_question"( check if are still question left ), 
+		- "check_answer"( check if the answer are correct ),
+		- "nex_question" ( show next question )
  - **data.py** : File contains the questions
 
 #### **Usage**
